@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/Style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1>Cadastro do Usuário</h1><br>
+
+            <form>
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" name="nome" required class="input" placeholder="Digite seu Nome"><br>
+        
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" required class="input" placeholder="exemplo@gmail.com"><br>
+        
+                <label for="senha">Senha</label>
+                <input type="text" id="senha" name="senha" required class="input" placeholder="Digite sua Senha"><br>
+
+                <label for="senhaConfirm">Confirme a Senha</label>
+                <input type="text" id="senhaConfirm" name="senhaConfirm" required class="input" placeholder="Confirme sua Senha"><br>
+
+                <label for="genero">Gênero</label><br>
+                <select name="genero" id="genero" rows="4">
+                    <option value="placeholder">Selecione</option>
+                </select><br><br>
+
+                <input type="checkbox">
+                    Aceito os <a href="">Termos de Uso</a>.
+                </input><br><br>
+                
+        
+                <button type="submit" class="submit">Cadastrar</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
