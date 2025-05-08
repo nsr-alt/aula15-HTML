@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    width: 15%;
+}
